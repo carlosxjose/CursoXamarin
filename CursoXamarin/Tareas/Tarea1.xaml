@@ -40,4 +40,5 @@
             <Button BackgroundColor="LightPink" Grid.Row="0" Grid.Column="0" Text="boton 3-1"/>
         </Grid>
     </StackLayout>
+ 
 </ContentPage>
