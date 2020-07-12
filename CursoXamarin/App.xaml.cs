@@ -10,7 +10,7 @@ namespace CursoXamarin
         {
             InitializeComponent();
 
-            MainPage = new Tareas.Tarea1();
+            MainPage = new Tareas.Tarea21();
         }
 
         protected override void OnStart()
