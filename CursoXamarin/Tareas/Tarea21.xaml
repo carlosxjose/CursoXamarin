@@ -30,5 +30,8 @@
                 </Grid>
             </Frame>
         </Frame>
-    </StackLayout>
+        <Grid>
+            <Button BackgroundColor="Black" Text="Pagina anterior" TextColor="White" Clicked="Button_Clicked" VerticalOptions="EndAndExpand"/>
+        </Grid>
+    </StackLayout>    
 </ContentPage>

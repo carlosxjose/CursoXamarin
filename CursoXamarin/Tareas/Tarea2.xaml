@@ -27,8 +27,8 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Label Grid.Row="0" Grid.Column="0" BackgroundColor="Transparent"  Text="Titulo" FontSize="Title" Padding="10"/>
-                <Entry Grid.Row="0" Grid.Column="1" BackgroundColor="White" Text="" IsVisible="True" InputTransparent="False" IsEnabled="True" IsPassword="False" IsReadOnly="False" IsSpellCheckEnabled="True" Keyboard="Default" HorizontalOptions="FillAndExpand"/>
-                
+                <Entry Grid.Row="0" Grid.Column="1" BackgroundColor="White" Text="" IsVisible="True" InputTransparent="False" IsEnabled="True" IsPassword="False" IsReadOnly="False" IsSpellCheckEnabled="True" Keyboard="Default" HorizontalOptions="FillAndExpand"/>                
+
             </Grid>
             <Grid Margin="30,45,20,0">
                 <Grid.RowDefinitions>
@@ -41,6 +41,9 @@
                 </Grid.ColumnDefinitions>
                 <Label Grid.Row="0" Grid.Column="0" BackgroundColor="Transparent"  Text="Descripcion" FontSize="Title"/>
                 <Entry Margin="0,0,0,10" Grid.ColumnSpan="10" Grid.Row="1" Grid.Column="0" BackgroundColor="White" Text="" IsVisible="True" Keyboard="Default" HorizontalOptions="FillAndExpand"/>
+                </Grid>            
+                <Grid>
+                <Button BackgroundColor="Black" Grid.Row="1" Grid.Column="0" Text="Siguiente" TextColor="White" Clicked="Button_Clicked"/>
             </Grid>
         </StackLayout>
     </StackLayout>
